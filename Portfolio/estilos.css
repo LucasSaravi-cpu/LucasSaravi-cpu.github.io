@@ -120,22 +120,6 @@ html{
     list-style-type: none;
 }
 
-h2, h3 {
-    color: #333;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 8px 0;
-    padding-left: 25px;
-    position: relative;
-}
-
 
 .sobreMi h2{
     font-size: 48px;
