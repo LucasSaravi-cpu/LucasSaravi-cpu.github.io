@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />      
+    <link rel="stylesheet" href="estilos.css">
+    <title>Lucas Saraví Portfolio</title>
+</head>
+<body>
+    
+     <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Lucas Saraví</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobreMi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#conocimientos" onclick="seleccionar()">CONOCIMIENTOS</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+              <!--      <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li> -->
+                   <!--  <li><a href="#contacto" onclick="seleccionar()">MIS REDES</a></li>-->
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/foto Lucas Saravi.jpg" alt="">
+            </div>
+            <h1>Lucas Saravi</h1>
+            <h2>Estudiante en Ingenieria en informatica.</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/lucassaravi/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-saravi-5821722a2/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/LucasSaravi-cpu"><i class="fa-brands fa-github"></i></a>
+                <a href=""target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobreMi" class="sobreMi">
+        <div class="contenido-sobreMi">
+            <h2>SOBRE MI</h2>
+            <div class="contenedor-sobreMi">
+              
+                <p>Soy una persona responsable y ordenada, con amplios conocimientos en informática, programación y análisis de información. Actualmente, curso la carrera de Ingeniería en Informática en la Universidad FASTA.</p>
+                  <h3>Habilidades y Conocimientos</h3>   
+                 
+            <ul>
+                <li>✅ <strong>Programación:</strong> Java (POO, Spring Boot, Vaadin, Hibernate, Maven), manejo de bases de datos, multithreading y serialización.</li>
+                <li>✅ <strong>Redes y Comunicaciones:</strong> Fundamentos de comunicaciones analógicas y digitales, tecnologías LAN, WiLAN, MAN y WAN.</li>
+                <li>✅ <strong>Ingeniería de Software:</strong> Análisis y especificación de requerimientos, modelado UML, planificación de proyectos y gestión de riesgos.</li>
+                <li>✅ <strong>Matemáticas y Sistemas:</strong> Resolución de problemas en binario y hexadecimal.</li>
+                <li>✅ <strong>Ofimática:</strong> Manejo avanzado de Microsoft Excel, Word y PowerPoint.</li>
+            </ul>
+                
+                
+                <h3> Formación Complementaria</h3>  
+                 <p>📌 Cursos en HILET: Microsoft Excel, Word y PowerPoint.</p>
+                 <p>📌 Curso de Desarrollo Java en la UTN.</p>
+                
+                <br>
+                    <ul>
+                        <li></li>
+                     
+                        </ul>
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+     </section>
+
+    <!-- SECCION CONOCIMIENTOS -->
+    <!-- <section id="conocimientos" class="conocimientos">
+        <div class="contenido-conocimientos">
+            <h2>CONOCIMIENTOS</h2>
+            <div class="contenedor-conocimientos">
+            
+       <!--      <!--C#-->   
+         <!--    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />       
+          <!--GIT-->
+        <!--     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+            <!--GITHUB-->
+        <!--     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />         
+            <!--C++-->
+       <!--      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />          
+            <!--JAVASCRIPT-->
+       <!--      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          
+          
+          
+          
+          
+        <!--     </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-proyectos">
+            <h2>PROYECTOS</h2>
+            <div class="contenedor-proyectos">
+                <h3>Sistema de Gestión de Equipamiento Médico para Tecnovigilancia</h3>
+            <h3>Contenido del proyecto</h3>
+			
+                 <p> ✅ Especificación de Requerimientos del Sistema (SRS): Documentación detallada que define los objetivos, requisitos y alcance del sistema de gestión de equipamiento médico.</p>
+                 <p> ✅ Definición de Requerimientos Funcionales y No Funcionales: Descripción exhaustiva de las funcionalidades esenciales que debe cubrir el sistema y los requisitos de calidad, rendimiento, seguridad, entre otros, que deben cumplirse para garantizar su operación óptima.</p>
+                 <p> ✅ Casos de Uso del Sistema de Tecnovigilancia: Escenarios prácticos que describen cómo los diferentes tipos de usuarios interactuarán con el sistema en diversas situaciones, permitiendo visualizar las funcionalidades desde la perspectiva del usuario final.</p>
+                 <p> ✅ Diagramas de Colaboración entre Objetos: Representación gráfica que ilustra cómo los diferentes objetos del sistema colaboran y se comunican entre sí para cumplir con cada funcionalidad..</p>
+                 <p> ✅ Plan de Implementación del Proyecto de Tecnovigilancia: Descripción del proceso sugerido para la introducción del sistema en la organización, abarcando fases de despliegue, capacitación, pruebas piloto y ajustes post-implementación.</p>
+                 <p> ✅ Gestión de Riesgos del Sistema de Tecnovigilancia: Identificación, evaluación y estrategias de mitigación para los riesgos más críticos que podrían afectar el éxito del sistema, tales como riesgos técnicos, operacionales y organizacionales.</p>
+
+            <h3>Descripcion del sistema</h3>  
+			
+            <p> Sistema de Gestión de Equipamiento Médico para Tecnovigilancia Este sistema está diseñado para abordar las necesidades de gestión del equipamiento médico de una institución de salud, especialmente en áreas de alta tecnología como Tecnovigilancia. El sistema permite el inventario y mantenimiento de equipos esenciales en la atención de los pacientes, permitiendo a la institución registrar, controlar y seguir el estado y uso de estos equipos.</p>
+            
+			<h3> Objetivos del Sistema</h3>
+			
+            <p> ✅Inventario Completo del Equipamiento Médico: Registro detallado de todos los equipos clasificados por tipo (p. ej., respiradores, monitores, camas, etc.), ubicación, estado y proveedor.</p>
+
+            <p> ✅Gestión de Mantenimiento: Control de mantenimientos preventivos y correctivos, realizados por proveedores externos. Para el caso de los respiradores, se incluye un seguimiento específico basado en horas de uso con alertas y notificaciones según el estado del equipo.</p>
+
+            <p> ✅Seguimiento del Estado del Equipo: Visualización y actualización del estado de los equipos en tiempo real, manteniendo registro de los estados básicos (En uso, En espera de servicio, Disponibles, En mantenimiento, etc.).</p>
+
+
+
+                    <p></p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+  <!--  <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+    <!--            <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="misRedes">
+        <h2>MIS REDES</h2>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/lucassaravi/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/lucas-saravi-5821722a2/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/LucasSaravi-cpu"><i class="fa-brands fa-github"></i></a>
+            <a href=""target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
