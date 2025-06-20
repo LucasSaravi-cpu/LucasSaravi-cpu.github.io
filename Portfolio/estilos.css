@@ -180,6 +180,15 @@ html{
     padding: 50px 0;
 }
 
+.imagen-proyecto {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
 .proyectos h2{
     font-size: 48px;
     font-family: 'Righteous';
